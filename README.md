@@ -8,6 +8,6 @@ Use showdown to compile markdown into html for Parcel.
 
 ## WARNING
 
-This project is in development and is not stable.
+This should be stable. Please report any bugs.
 
 Feel free to contribute.
