@@ -2,7 +2,7 @@ import * as path from 'path';
 
 import { Asset } from 'parcel-bundler';
 
-import Showdown from 'showdown';
+import * as Showdown from 'showdown';
 
 class MarkdownAsset extends Asset {
   public type = 'html';
