@@ -1,0 +1,18 @@
+image: node:lts
+
+before_script:
+  - npm install
+
+cache:
+  paths:
+    - node_modules/
+
+test:node:lts:
+  script:
+    - npm run build
+    - npm test
+
+test:node:8:
+  script:
+    - npm run build
+    - npm test
